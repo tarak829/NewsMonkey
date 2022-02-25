@@ -1,0 +1,106 @@
+{
+  "status": "ok",
+  "totalResults": 10,
+  "articles": [
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Ukraine conflict: UK sanctions target Russia banks and oligarchs",
+      "description": "Russia's major banks will have their assets frozen following the invasion of Ukraine, Boris Johnson says.",
+      "url": "http://www.bbc.co.uk/news/uk-60515626",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/17FE8/production/_123408289_mediaitem123408286.jpg",
+      "publishedAt": "2022-02-24T18:07:21.8899149Z",
+      "content": "Major Russian banks will be excluded from the UK financial system and oligarchs have been targeted in new sanctions announced by Boris Johnson.\r\nThe prime minister told the House of Commons that they… [+2359 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Ukraine conflict: Zelensky warns of new iron curtain as Russia invades",
+      "description": "Volodymyr Zelensky says Russia has closed itself off from the \"civilised world\" by launching the attack.",
+      "url": "http://www.bbc.co.uk/news/world-europe-60513116",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/E65A/production/_123407985_gettyimages-1238719961-1.jpg",
+      "publishedAt": "2022-02-24T17:52:22.7690857Z",
+      "content": "Media caption, Gunfire and explosions heard in Ukrainian cities\r\nUkraine's leader has said a \"new iron curtain\" is falling and closing Russia off from the \"civilised world\" after it invaded its neigh… [+3013 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Noor Muqaddam: Diplomat's daughter beheaded for spurning proposal",
+      "description": "A man is sentenced to death for raping and murdering Noor Muqaddam at his home in Islamabad.",
+      "url": "http://www.bbc.co.uk/news/world-asia-60514698",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/A5BE/production/_123403424_noorgetty.jpg",
+      "publishedAt": "2022-02-24T17:37:24.7382755Z",
+      "content": "Image source, AAMIR QURESHI/AFP via Getty Images\r\nA court in Pakistan has sentenced a man to death for raping and murdering the daughter of a former diplomat who refused his offer of marriage.\r\nNoor … [+2310 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Roman Abramovich: Labour MP urges government to seize Russian billionaire's assets",
+      "description": "Chris Bryant accuses the government of not acting on concerns about the Chelsea Football club owner.",
+      "url": "http://www.bbc.co.uk/news/uk-politics-60506563",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2255/production/_123398780_cd46b063-0e84-486b-8108-494b892d8808.jpg",
+      "publishedAt": "2022-02-24T17:07:22.1284879Z",
+      "content": "The government should seize the assets of Russian billionaire Roman Abramovich, a Labour MP has said, citing concerns about alleged links to corruption.\r\nChris Bryant told MPs he had a leaked Home Of… [+2761 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "The Crown: Netflix series hit by £150k Doncaster antiques theft",
+      "description": "Props worth up to £150,000 are stolen in Doncaster as filming for the show's new series continues.",
+      "url": "http://www.bbc.co.uk/news/uk-england-south-yorkshire-60506167",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/135B9/production/_123398297_9d085497-8f0a-4130-a05c-c3e9dcbca766.jpg",
+      "publishedAt": "2022-02-24T15:37:20.6138575Z",
+      "content": "Image caption, Imelda Staunton takes over from Olivia Colman as the Queen in the fifth series of the show\r\nAntique props used in the filming of the Netflix TV series The Crown have been stolen in Sou… [+1720 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Halyna Hutchins: Husband reveals anger with with Alec Baldwin",
+      "description": "Mr Hutchins says it's \"absurd\" the actor/producer is not taking responsibility for his wife's death.",
+      "url": "http://www.bbc.co.uk/news/entertainment-arts-60508525",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/11A61/production/_123398227_gettyimages-1090671326.jpg",
+      "publishedAt": "2022-02-24T14:52:25.8326812Z",
+      "content": "Image source, Getty Images\r\nImage caption, The late cinematographer Halyna Hutchins, pictured in 2019\r\nThe husband of the late cinematographer Halyna Hutchins has said it is \"absurd\" that producer Al… [+1926 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Nkosana Makate: The South African set to make millions from Vodacom",
+      "description": "South African Nkosana Makate is in line for a huge pay-out after a 14-year court battle with Vodacom.",
+      "url": "http://www.bbc.co.uk/news/world-africa-60492916",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/2451/production/_123379290_whatsappimage2022-02-23at12.27.17.jpg",
+      "publishedAt": "2022-02-24T14:37:27.7236641Z",
+      "content": "South African Nkosana Makate's 14-year court battle against a huge corporate opponent is testimony to the idea that it is sometimes worth fighting on, as he is now in line for a pay-out worth million… [+4919 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "New sickle cell treatment given to first patients in England",
+      "description": "Crizanlizumab is thought to cut visits to A&E by 40% for patients with the blood disorder.",
+      "url": "http://www.bbc.co.uk/news/health-60498916",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/112B8/production/_123382307_loury.jpg",
+      "publishedAt": "2022-02-24T13:37:23.5681573Z",
+      "content": "By Fergus WalshMedical editor\r\nImage caption, Loury Mooruth, 62, is one of the first patients in England to receive crizanlizumab\r\nSickle cell patients have begun receiving the first new treatment fo… [+3723 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Why are black Americans being punished for their hair?",
+      "description": "Many black people in the US are embracing their natural curls. But now there’s a backlash.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-60498965",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/1566A/production/_123385678_p0bqtzxr.jpg",
+      "publishedAt": "2022-02-23T21:52:28.1349444Z",
+      "content": "Many black Americans are embracing the natural curls and coils in their hair. But theres been a backlash against black hairstyles in classrooms and companies across America. \r\nToddlers and teens have… [+474 chars]"
+    },
+    {
+      "source": { "id": "bbc-news", "name": "BBC News" },
+      "author": "BBC News",
+      "title": "Life may actually flash before your eyes on death - new study",
+      "description": "Scientists who \"accidentally\" made the first ever recording of a dying brain - saw startling results.",
+      "url": "http://www.bbc.co.uk/news/world-us-canada-60495730",
+      "urlToImage": "https://ichef.bbci.co.uk/news/1024/branded_news/A27D/production/_123379514_brainscan.jpg",
+      "publishedAt": "2022-02-23T20:07:24.0044018Z",
+      "content": "By Holly HonderichBBC News, Washington\r\nImage source, Getty Images\r\nImage caption, What happens when you die? A new study may give some ideas\r\nNew data from a scientific \"accident\" has suggested that… [+3068 chars]"
+    }
+  ]
+}
