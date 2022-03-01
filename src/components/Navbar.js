@@ -1,24 +1,42 @@
-// import PropTypes from "prop-types";
 import React, { Component } from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export class Component_Navbar extends Component {
-  // static propTypes = {};
 
   render() {
     return (
-      <Navbar bg='light' expand='lg'>
+      <Navbar bg='dark' variant='dark' expand='lg'>
         <Container fluid>
-          <Navbar.Brand href='#'>NewsMonkey</Navbar.Brand>
+          <Link to='/' className='navbar-brand'>
+            NewsMonkey
+          </Link>
           <Navbar.Toggle aria-controls='navbarScroll' />
           <Navbar.Collapse id='navbarScroll'>
-            <Nav
-              className='me-auto my-2 my-lg-0'
-              style={{ maxHeight: "100px" }}
-              navbarScroll
-            >
-              <Nav.Link href='#action1'>Home</Nav.Link>
-              <Nav.Link href='#action2'>Link</Nav.Link>
+            <Nav className='me-auto my-2 my-lg-0' style={{ maxHeight: "100px" }} navbarScroll>
+              <Link to='/' className='nav-link'>
+                Home
+              </Link>
+              <NavDropdown title='Categories' id='nav-dropdown'>
+                <Link className='dropdown-item' to='/business'>
+                  Business
+                </Link>
+                <Link className='dropdown-item' to='/entertainment'>
+                  Entertainment
+                </Link>
+                <Link className='dropdown-item' to='/health'>
+                  Health
+                </Link>
+                <Link className='dropdown-item' to='/science'>
+                  Science
+                </Link>
+                <Link className='dropdown-item' to='/sports'>
+                  Sports
+                </Link>
+                <Link className='dropdown-item' to='/technology'>
+                  Technology
+                </Link>
+              </NavDropdown>
             </Nav>
           </Navbar.Collapse>
         </Container>
