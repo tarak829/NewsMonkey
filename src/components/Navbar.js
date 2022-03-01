@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, Container} from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 export class Component_Navbar extends Component {
-
   render() {
     return (
       <Navbar bg='dark' variant='dark' expand='lg'>
@@ -17,26 +16,24 @@ export class Component_Navbar extends Component {
               <Link to='/' className='nav-link'>
                 Home
               </Link>
-              <NavDropdown title='Categories' id='nav-dropdown'>
-                <Link className='dropdown-item' to='/business'>
-                  Business
-                </Link>
-                <Link className='dropdown-item' to='/entertainment'>
-                  Entertainment
-                </Link>
-                <Link className='dropdown-item' to='/health'>
-                  Health
-                </Link>
-                <Link className='dropdown-item' to='/science'>
-                  Science
-                </Link>
-                <Link className='dropdown-item' to='/sports'>
-                  Sports
-                </Link>
-                <Link className='dropdown-item' to='/technology'>
-                  Technology
-                </Link>
-              </NavDropdown>
+              <Link className='nav-link' to='/business'>
+                Business
+              </Link>
+              <Link className='nav-link' to='/entertainment'>
+                Entertainment
+              </Link>
+              <Link className='nav-link' to='/health'>
+                Health
+              </Link>
+              <Link className='nav-link' to='/science'>
+                Science
+              </Link>
+              <Link className='nav-link' to='/sports'>
+                Sports
+              </Link>
+              <Link className='nav-link' to='/technology'>
+                Technology
+              </Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
