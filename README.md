@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+# Rename .env.example to .env and add your own API key
+
+REACT_APP_NEWS_API_KEY = "YOUR_API_KEY"
+
 ### `npm start`
 
 Runs the app in the development mode.\
