@@ -8,7 +8,7 @@ const News = (props) => {
   const [articles, setArticles] = useState([]);
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
-  const [totalResults, settotalResults] = useState(0);
+  const [totalResults, setTotalResults] = useState(0);
 
   const updateNews = async () => {
     setLoading(true);
@@ -20,7 +20,7 @@ const News = (props) => {
       setArticles(articles.concat(data.articles));
       setPage(page + 1);
       setLoading(false);
-      settotalResults(data.totalResults);
+      setTotalResults(data.totalResults);
     } else {
       setLoading(false);
       console.log("Error: ", data.message);
@@ -29,7 +29,7 @@ const News = (props) => {
     }
   };
 
-  const capatalize = (str) => {
+  const capitalize = (str) => {
     return str.charAt(0).toUpperCase() + str.slice(1);
   };
 
@@ -42,11 +42,11 @@ const News = (props) => {
     const data = await response.json();
     setArticles(articles.concat(data.articles));
     setLoading(false);
-    settotalResults(data.totalResults);
+    setTotalResults(data.totalResults);
   };
 
   useEffect(() => {
-    document.title = `${capatalize(props.category)} - ${capatalize(props.country)} - NewsMonkey`;
+    document.title = `${capitalize(props.category)} - ${capitalize(props.country)} - NewsMonkey`;
     updateNews();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -54,7 +54,7 @@ const News = (props) => {
   return (
     <div>
       <h1 id='header' className='text-center my-4'>
-        NewsMonkey - Top {capatalize(props.category)} Headlines
+        NewsMonkey - Top {capitalize(props.category)} Headlines
       </h1>
       <Spinner
         animation='border'
